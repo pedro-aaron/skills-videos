@@ -1,0 +1,60 @@
+{
+  "default": "narrador",
+  "modelo_default": "eleven_multilingual_v2",
+  "voces": {
+    "narrador": {
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "label": "George (ejemplo público; sustituye por tu voz)",
+      "model_id": "eleven_multilingual_v2",
+      "language_code": "es",
+      "voice_settings": {
+        "stability": 0.45,
+        "similarity_boost": 0.75,
+        "style": 0.0,
+        "use_speaker_boost": true
+      },
+      "calibracion": {
+        "car_s": null,
+        "medido_en": null,
+        "notas": "Ritmo medido en un video real (caracteres ÷ segundos de habla). Una muestra corta no calibra."
+      },
+      "notas": "Plantilla. Reemplaza voice_id con uno de tu cuenta ElevenLabs."
+    },
+    "clara": {
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "label": "Sarah (ejemplo público; sustituye por tu voz)",
+      "model_id": "eleven_multilingual_v2",
+      "language_code": "es",
+      "voice_settings": {
+        "stability": 0.5,
+        "similarity_boost": 0.8,
+        "style": 0.0,
+        "use_speaker_boost": true
+      },
+      "calibracion": {
+        "car_s": null,
+        "medido_en": null,
+        "notas": ""
+      },
+      "notas": "Plantilla. Verifica el ID con `tts.py listar` o el dashboard."
+    },
+    "adam": {
+      "voice_id": "pNInz6obpgDQGcFmaJgB",
+      "label": "Adam (ejemplo público; sustituye por tu voz)",
+      "model_id": "eleven_multilingual_v2",
+      "language_code": "es",
+      "voice_settings": {
+        "stability": 0.4,
+        "similarity_boost": 0.75,
+        "style": 0.0,
+        "use_speaker_boost": true
+      },
+      "calibracion": {
+        "car_s": null,
+        "medido_en": null,
+        "notas": ""
+      },
+      "notas": "Plantilla. Prefiere clones o voces de tu cuenta para producción."
+    }
+  }
+}
